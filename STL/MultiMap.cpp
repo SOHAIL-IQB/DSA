@@ -28,8 +28,16 @@ int main() {
         cout << it->second << endl; // Prints value for key 1
     }
 
+    // Similar functions: 
+    // erase(key), swap(other_map), size(), empty(), clear()
+
+    /*
+    Key Differences:
+	• Map stores keys in sorted order, Multimap allows duplicates, and 
+      Unordered Map does not maintain any order and uses hashing for faster lookups.
+	• Map and Multimap have O(log n) time complexity for most operations,
+      while Unordered Map has average O(1) time complexity.
+    */
+
     return 0;
 }
-
-// Similar functions:
-// erase(key), swap(other_map), size(), empty(), clear()

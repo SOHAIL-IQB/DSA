@@ -60,5 +60,15 @@ int main() {
     // empty() - Returns true if the map is empty.
     // clear() - Removes all elements from the map.
 
+
+
+    /*
+    Key Differences:
+	• Map stores keys in sorted order, Multimap allows duplicates, and 
+      Unordered Map does not maintain any order and uses hashing for faster lookups.
+	• Map and Multimap have O(log n) time complexity for most operations,
+      while Unordered Map has average O(1) time complexity.
+    */
+
     return 0;
 }
