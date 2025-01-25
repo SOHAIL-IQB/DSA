@@ -1,8 +1,8 @@
 /*
-Map is an STL container that stores key-value pairs.
-Both keys and values can be of any data type.
-
-Maps store unique keys in sorted order.
+A Map is an STL container that stores key-value in pairs with unique keys,
+sorted in ascending order.
+Both keys and values can be of any data type. Operations like insert, find,
+and access have a time complexity of O(log n).
 */
 
 #include <iostream>
