@@ -41,6 +41,11 @@ int main(){
 
     auto it  = mp.find(2); //it gives the address of key 2  //if the key is not presenet than it points just after the end.
     cout << it->second;  //gives the value
+
+    auto it  = mpp.lower_bound(1);
+    auto it =  mp.upper_bound(2);
+
+    //erase,swap,size,empty and more are same as all 
     
     return 0;
 }
