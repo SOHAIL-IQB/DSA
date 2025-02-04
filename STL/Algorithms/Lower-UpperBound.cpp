@@ -9,17 +9,17 @@ int main() {
 
     // ---------------------- Lower Bound ----------------------
 
-    // Finds the first element that is greater than or equal to 5
-    auto lb = lower_bound(vec.begin(), vec.end(), 5);
-    cout << "Lower bound of 5: " << *lb << endl; // Output: 5
-
+    // Finds the first element that is greater than or equal to 4
+   auto lb = lower_bound(vec.begin(), vec.end(), 4);  // Finds first element >= 4
+    cout << "Lower Bound: " << (lb - vec.begin()) << endl;  // Converts iterator to index
+    
 
 
     // ---------------------- Upper Bound ----------------------
 
     // Finds the first element that is strictly greater than 5
-    auto ub = upper_bound(vec.begin(), vec.end(), 5);
-    cout << "Upper bound of 5: " << *ub << endl; // Output: 6
+    auto ub = upper_bound(vec.begin(), vec.end(), 4);  // Finds first element > 4
+    cout << "Upper Bound: " << (ub - vec.begin()) << endl;  // Converts iterator to index
 
     return 0;
 }
