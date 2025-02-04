@@ -12,6 +12,9 @@ int main() {
     // Finds the first element that is greater than or equal to 5
     auto lb = lower_bound(vec.begin(), vec.end(), 5);
     cout << "Lower bound of 5: " << *lb << endl; // Output: 5
+    
+    //if you need the index then you shoud subtract the strting index
+
 
     // ---------------------- Upper Bound ----------------------
 
