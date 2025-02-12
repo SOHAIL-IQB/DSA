@@ -11,13 +11,13 @@ int main() {
 
     cout << "All permutations:" << endl;
     do {
-        cout << s << endl; // Print the current permutation
+        cout << s << endl; //Print the current permutation
     } while (next_permutation(s.begin(), s.end())); // Generate next permutation
 
     // ---------------------- Handling Unsorted Strings ----------------------
 
-    string unsortedStr = "231"; // Unsorted sequence
-    sort(unsortedStr.begin(), unsortedStr.end()); // Sort before generating permutations
+    string unsortedStr = "231"; //Unsorted sequence
+    sort(unsortedStr.begin(), unsortedStr.end()); //Sort before generating permutations
 
     cout << "\nPermutations after sorting the unsorted string:" << endl;
     do {
