@@ -17,7 +17,7 @@ int main() {
 
     // ---------------------- Upper Bound ----------------------
 
-    // Finds the first element that is strictly greater than 5
+    // Finds the first element that is strictly greater than 4
     auto ub = upper_bound(vec.begin(), vec.end(), 4);  // Finds first element > 4
     cout << "Upper Bound: " << (ub - vec.begin()) << endl;  // Converts iterator to index
 
