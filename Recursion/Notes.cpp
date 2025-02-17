@@ -45,6 +45,7 @@ int main() {
 
     // ---------------------- 3. Reverse an Array ----------------------
     // Reverses an array using recursion.
+
     vector<int> arr = {1, 2, 3, 4, 5};
     function<void(int, int)> reverseArray = [&](int start, int end) {
         if (start >= end) return; // Base case
@@ -58,6 +59,7 @@ int main() {
 
     // ---------------------- 4. Palindrome Check ----------------------
     // Checks if a string is a palindrome using recursion.
+    
     string str = "madam";
     function<bool(int, int)> isPalindrome = [&](int left, int right) {
         if (left >= right) return true; // Base case
