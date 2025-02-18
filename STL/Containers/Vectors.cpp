@@ -78,11 +78,11 @@ int main() {
     v5.erase(v5.begin(), v5.begin() + 2); // Remove the first two elements
 
     // Insert Function
-    v1.insert(v1.begin(), 300);            // Insert 300 at the first position
-    v1.insert(v1.begin() + 1, 3, 10);      // Insert 3 elements of value 10 at the second position
+    v1.insert(v1.begin(), 300);       // Insert 300 at the first position
+    v1.insert(v1.begin() + 1, 3, 10);// Insert 3 elements of value 10 at the second position
 
     for (auto i : v1) {
-        cout << i << " ";                   // Print elements in v1 after insertions
+        cout << i << " ";            // Print elements in v1 after insertions
     }
     cout << endl;
 
