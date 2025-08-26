@@ -1,6 +1,7 @@
-/*A vector is a dynamic array provided by the Standard Template Library (STL). 
-It is defined in the <vector> header file and provides functionalities similar to 
-arrays but with dynamic resizing capabilities.
+/*
+A vector is a dynamic array provided by the Standard Template Library (STL). 
+It is defined in the <vector> header file and provides functionalities
+similar to arrays but with dynamic resizing capabilities.
 */
 
 
