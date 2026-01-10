@@ -1,0 +1,25 @@
+
+
+#traffic{
+    background-color: black;
+    height: 200px;
+    width: 80px;
+    border-radius: 30px;
+    padding: 1px;
+}
+
+.light{
+    margin: 23%;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+#greenLight{
+    background-color: green;
+}
+#yellowLight{
+    background-color: yellow;
+}
+#redLight{
+    background-color: red;
+}
